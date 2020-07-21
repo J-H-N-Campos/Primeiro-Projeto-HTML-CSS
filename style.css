@@ -1,0 +1,79 @@
+/*Escolhendo o seletor "p" e aplicando o seu estilo*/
+p{
+    color:white;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #111111;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+body{
+    background-color:#009ACD;
+}
+
+/*seletor toda a página*/
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #009ACD;
+    height: 80px;
+    padding: 20px;
+}
+
+footer{
+    clear:both;
+    background-color:#009ACD;
+    height: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+    padding:  10px;
+}
+
+h1{
+    color:#FF7F50;
+    text-shadow: 1px 1px 1px #111111;
+    text-align: center;
+    margin:0 0 50px 0;
+}
+
+/*Usando o "jogo da velha" para selecionar o id criado no html*/
+#principal{
+    background-image: url('./city.jpg');
+    clear:both;
+    min-height: 400px;
+    background-size: 100%;
+    padding: 80px 0 0 0;
+}
+
+#menu{
+    margin-top: 30px;
+    float:right;
+}
+
+#menu a{
+    padding: 50px 20px;
+    text-decoration:none;
+    color:#111;
+    text-shadow: 1px 1px #111111;
+}
+
+#menu a:hover{
+    background-color:lightblue;
+    color: #009ACD;
+}
+
+/*classe declarada*/
+.container{
+    margin:0 auto;
+    float: left;
+    background-size: 20%;
+}
+
+.efeito{
+    background-color: rgba(0,0,0,0.5);
+    padding:80px 0 80px 0;
+}
+
